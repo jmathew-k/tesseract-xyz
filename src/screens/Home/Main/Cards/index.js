@@ -4,39 +4,39 @@ import { Link } from "react-router-dom";
 import styles from "./Cards.module.sass";
 
 const items = [
-  {
-    title: "ETH/USD",
-    price: "36,641.20",
-    money: "36,641.20",
-    negative: "-0.79%",
-    image: "images/content/currency/eth.png",
-    url: "/exchange",
-  },
-  {
-    title: "MATIC/USD",
-    price: "36,641.20",
-    money: "36,641.20",
-    positive: "+0.79%",
-    image: "images/content/currency/matic.png",
-    url: "/exchange",
-  },
-  {
-    title: "AVAX/USD",
-    price: "36,641.20",
-    money: "36,641.20",
-    positive: "+0.79%",
-    image: "images/content/currency/avax.svg",
-    url: "/exchange",
-  },
-  {
-    title: "SOL/USD",
-    price: "36,641.20",
-    money: "36,641.20",
-    positive: "+0.79%",
-    image: "images/content/currency/sol.png",
-    url: "/exchange",
-  },
-];
+	{
+		title: 'ETH/USD',
+		price: '1,594.23',
+		money: 'Ethereum',
+		negative: '-0.02%',
+		image: 'images/content/currency/eth.png',
+		url: '/exchange',
+	},
+	{
+		title: 'MATIC/USD',
+		price: '0.8923',
+		money: 'Polygon',
+		positive: '+0.28%',
+		image: 'images/content/currency/matic.png',
+		url: '/exchange',
+	},
+	{
+		title: 'AVAX/USD',
+		price: '19.10',
+		money: 'Avalanche',
+		positive: '+0.43%',
+		image: 'images/content/currency/avax.svg',
+		url: '/exchange',
+	},
+	{
+		title: 'SOL/USD',
+		price: '32.93',
+		money: 'Solana',
+		positive: '+0.79%',
+		image: 'images/content/currency/sol.png',
+		url: '/exchange',
+	},
+]
 
 const Cards = ({ className }) => {
   return (

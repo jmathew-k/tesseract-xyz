@@ -10,8 +10,8 @@ const navigation = ["All", "Bitcoin", "Blockchain", "Tutorial"];
 
 const items = [
     {
-        title: "Leveraged tokens now available",
-        content: "Good things come in 3s. Get 3x Leveraged tokens now.",
+        title: "Multi-chain NFT API: How to get NFT Data",
+        content: "How to get highest quality NFT data to your product",
         image: "/images/content/learn-pic-1.jpg",
         image2x: "/images/content/learn-pic-1@2x.jpg",
         url: "/learn-crypto-details",
