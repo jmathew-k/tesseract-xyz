@@ -9,7 +9,7 @@ const items = [
     price: "36,641.20",
     money: "36,641.20",
     negative: "-0.79%",
-    image: "images/content/currency/eth.svg",
+    image: "images/content/currency/eth.png",
     url: "/exchange",
   },
   {
@@ -17,7 +17,7 @@ const items = [
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",
-    image: "images/content/currency/matic.svg",
+    image: "images/content/currency/matic.png",
     url: "/exchange",
   },
   {
@@ -33,7 +33,7 @@ const items = [
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",
-    image: "images/content/currency/sol.svg",
+    image: "images/content/currency/sol.png",
     url: "/exchange",
   },
 ];
