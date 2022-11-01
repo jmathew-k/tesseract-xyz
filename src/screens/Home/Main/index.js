@@ -30,7 +30,7 @@ const Main = ({ scrollToRef }) => {
                 </div>
                 <div className={styles.bg}>
                     <img
-                        srcSet="/images/content/eth-server-dark@2x.png 2x"
+                        srcSet="/images/content/eth-server-dark.png 2x"
                         src="/images/content/eth-server-dark.png"
                         alt="Cards"
                     />

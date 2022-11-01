@@ -5,35 +5,35 @@ import styles from "./Cards.module.sass";
 
 const items = [
   {
-    title: "BTC/USDT",
+    title: "ETH/USD",
     price: "36,641.20",
     money: "36,641.20",
     negative: "-0.79%",
-    image: "images/content/currency/bitcoin.svg",
+    image: "images/content/currency/eth.svg",
     url: "/exchange",
   },
   {
-    title: "BTC/USDT",
+    title: "MATIC/USD",
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",
-    image: "images/content/currency/chainlink.svg",
+    image: "images/content/currency/matic.svg",
     url: "/exchange",
   },
   {
-    title: "BTC/USDT",
+    title: "AVAX/USD",
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",
-    image: "images/content/currency/monero.svg",
+    image: "images/content/currency/avax.svg",
     url: "/exchange",
   },
   {
-    title: "BTC/USDT",
+    title: "SOL/USD",
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",
-    image: "images/content/currency/maid.svg",
+    image: "images/content/currency/sol.svg",
     url: "/exchange",
   },
 ];

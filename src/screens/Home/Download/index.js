@@ -30,8 +30,8 @@ const Download = () => {
 			<div className={cn('container', styles.container)}>
 				<div className={styles.bg}>
 					<img
-						srcSet='/images/content/eth-server-dark@2x.png 2x'
-						src='/images/content/eth-server-dark.png'
+						srcSet='/images/content/nft-machine.png 2x'
+						src='/images/content/nft-machine.png'
 						alt='Download'
 					/>
 				</div>

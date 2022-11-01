@@ -8,30 +8,30 @@ import Card from "./Card";
 
 const items = [
   {
-    title: "Be Part of our Global Community",
+    title: "Mint NFTs",
     content:
-      "Let’s stay in touch. Join our communities to keep up with the Tesseract team and our traders from across the world.",
-    stage: "crypto news",
-    image: "/images/content/news-pic-1.png",
-    image2x: "/images/content/news-pic-1@2x.png",
+      "Mint NFTs at scale and reliably from your product without having to manage the complexity of blockchain",
+    stage: "Core Functionality",
+    image: "/images/content/tx-nft.png",
+    image2x: "/images/content/tx-nft.png",
     url: "/learn-crypto-details",
   },
   {
-    title: "Be Part of our Global Community",
+    title: "Deploy Contracts",
     content:
-      "Let’s stay in touch. Join our communities to keep up with the Tesseract team and our traders from across the world.",
-    stage: "Join now",
-    image: "/images/content/news-pic-1.png",
-    image2x: "/images/content/news-pic-1@2x.png",
+      "Deploy, manage & monetize your fully owned contracts - build anything from collections to large-scale products",
+    stage: "Core Functionality",
+    image: "/images/content/web3-contract.png",
+    image2x: "/images/content/web3-contract.png",
     url: "/learn-crypto-details",
   },
   {
-    title: "Be Part of our Global Community",
+    title: "Multi-Chain NFT Data",
     content:
-      "Let’s stay in touch. Join our communities to keep up with the Tesseract team and our traders from across the world.",
-    stage: "crypto news",
-    image: "/images/content/news-pic-1.png",
-    image2x: "/images/content/news-pic-1@2x.png",
+      "Bring highest quality NFT data from multiple chains to your product effortlessly",
+    stage: "Core Functionality",
+    image: "/images/content/stack.png",
+    image2x: "/images/content/stack.png",
     url: "/learn-crypto-details",
   },
 ];

@@ -73,13 +73,13 @@ const Footer = () => {
             <Link className={styles.logo} to="/">
               <img
                 className={styles.picDesktop}
-                src="images/logo.svg"
+                src="images/tess-logo.png"
                 alt="Tesseract"
               />
               <Image
                 className={styles.picMobile}
-                src="/images/tess-logo-light.png"
-                srcDark="/images/tess-logo-dark.png"
+                src="/images/tess-logo.png"
+                srcDark="/images/tess-logo.png"
                 alt="Tesseract"
               />
             </Link>
