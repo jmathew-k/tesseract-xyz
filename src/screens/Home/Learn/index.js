@@ -10,15 +10,15 @@ const navigation = ["All", "NFT Minting", "IPFS Media", "NFT Apps"];
 
 const items = [
 	{
-		title: 'Multi-chain NFT API: How to get NFT Data',
-		content: 'How to get highest quality NFT data to your product',
-		image: '/images/content/learn-pic-1.jpg',
-		image2x: '/images/content/learn-pic-1@2x.jpg',
+		title: 'How to build an NFT Marketplace',
+		content: 'The must-have features & functions of an NFT Marketplace',
+		image: '/images/content/marketplace.png',
+		image2x: '/images/content/marketplace@2x.png',
 		url: '/learn-crypto-details',
 	},
 	{
-		title: 'How to build an NFT Marketplace',
-		content: 'The must-have features & functions of an NFT Marketplace',
+		title: 'Multi-chain NFT API: How to get NFT Data',
+		content: 'How to get highest quality NFT data to your product',
 		date: 'Nov 1, 2022',
 		image: '/images/content/learn-pic-2.jpg',
 		image2x: '/images/content/learn-pic-2@2x.jpg',
