@@ -5,7 +5,7 @@ import useDarkMode from "use-dark-mode";
 import Icon from "../Icon";
 
 const Theme = ({ className, icon, small }) => {
-  const darkMode = useDarkMode(false);
+  const darkMode = useDarkMode(true)
 
   return (
     <label className={cn(className, styles.theme, { [styles.small]: small })}>

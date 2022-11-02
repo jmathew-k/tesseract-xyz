@@ -9,39 +9,40 @@ import Play from "../../../components/Play";
 const navigation = ["All", "NFT Minting", "IPFS Media", "NFT Apps"];
 
 const items = [
-    {
-        title: "Multi-chain NFT API: How to get NFT Data",
-        content: "How to get highest quality NFT data to your product",
-        image: "/images/content/learn-pic-1.jpg",
-        image2x: "/images/content/learn-pic-1@2x.jpg",
-        url: "/learn-crypto-details",
-    },
-    {
-        title: "Leveraged tokens now available",
-        content: "Good things come in 3s. Get 3x Leveraged tokens now.",
-        date: "Jun 1, 2021",
-        image: "/images/content/learn-pic-2.jpg",
-        image2x: "/images/content/learn-pic-2@2x.jpg",
-        url: "/learn-crypto-details",
-    },
-    {
-        title: "Leveraged tokens now available",
-        content: "Good things come in 3s. Get 3x Leveraged tokens now.",
-        date: "Jun 1, 2021",
-        play: true,
-        image: "/images/content/learn-pic-4.jpg",
-        image2x: "/images/content/learn-pic-4@2x.jpg",
-        url: "/learn-crypto-details",
-    },
-    {
-        title: "Leveraged tokens now available",
-        content: "Good things come in 3s. Get 3x Leveraged tokens now.",
-        date: "Jun 1, 2021",
-        image: "/images/content/learn-pic-3.jpg",
-        image2x: "/images/content/learn-pic-3@2x.jpg",
-        url: "/learn-crypto-details",
-    },
-];
+	{
+		title: 'Multi-chain NFT API: How to get NFT Data',
+		content: 'How to get highest quality NFT data to your product',
+		image: '/images/content/learn-pic-1.jpg',
+		image2x: '/images/content/learn-pic-1@2x.jpg',
+		url: '/learn-crypto-details',
+	},
+	{
+		title: 'How to build an NFT Marketplace',
+		content: 'The must-have features & functions of an NFT Marketplace',
+		date: 'Nov 1, 2022',
+		image: '/images/content/learn-pic-2.jpg',
+		image2x: '/images/content/learn-pic-2@2x.jpg',
+		url: '/learn-crypto-details',
+	},
+	{
+		title: 'Tesseract releases Polygon NFT API',
+		content: 'Why build your NFT product on Polygon?',
+		date: 'Oct 29, 2022',
+		play: true,
+		image: '/images/content/learn-pic-4.jpg',
+		image2x: '/images/content/learn-pic-4@2x.jpg',
+		url: '/learn-crypto-details',
+	},
+	{
+		title: 'Streaming Video Through IPFS Gatways',
+		content:
+			'IPFS streaming is not yet native to its content delivery.',
+		date: 'Oct 20, 2022',
+		image: '/images/content/learn-pic-3.jpg',
+		image2x: '/images/content/learn-pic-3@2x.jpg',
+		url: '/learn-crypto-details',
+	},
+]
 
 const SlickArrow = ({ currentSlide, slideCount, children, ...props }) => (
     <button {...props}>{children}</button>
