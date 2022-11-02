@@ -11,10 +11,10 @@ const Main = ({ scrollToRef }) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.wrap}>
                     <h1 className={cn("h1", styles.title)}>
-                        NFT infrastructure<br></br>for the Internet
+                        NFT infrastructure<br></br>for the Web
                     </h1>
                     <div className={styles.text}>
-                    Bring True Ownership Of Virtual Assets, Verifiable Scarcity, And Open Standard For Interoperability To Your Digital Experience
+                    Tesseract is the leading NFT infrastructure for builders and creators in Web3.
                     </div>
                     <Link className={cn("button", styles.button)} to="/sign-up">
                         Start now

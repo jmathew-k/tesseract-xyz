@@ -72,10 +72,10 @@ const News = ({ classSection }) => {
             /> */}
           </div>
           <h2 className={cn("h2", styles.title)}>
-            Stay in the know on crypto with Tesseract
+            Core Functionality of the Tesseract Platform
           </h2>
           <div className={styles.info}>
-            A creative agency that lead and inspire
+            Build Scalable & Robust NFT enabled digital experiences without worrying about managing nodes, network security, gas fees etc.
           </div>
         </div>
         <div className={styles.wrapper}>

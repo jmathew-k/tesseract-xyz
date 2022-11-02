@@ -5,21 +5,21 @@ import styles from './Download.module.sass'
 
 const items = [
 	{
-		title: 'Appstore',
-		content: 'Download from',
-		image: '/images/content/apple.svg',
+		title: 'Build Fast',
+		content: '',
+		image: '/images/content/currency/flash.svg',
 		url: '/',
 	},
 	{
-		title: 'Google Play',
-		content: 'Download from',
-		image: '/images/content/google-play.svg',
+		title: 'Efficient Transactions',
+		content: '',
+		image: '/images/content/currency/transfer.svg',
 		url: '/',
 	},
 	{
-		title: 'Mac OS',
-		content: 'Download for',
-		image: '/images/content/apple.svg',
+		title: 'Robust Metadata',
+		content: '',
+		image: '/images/content/currency/diamond.svg',
 		url: '/',
 	},
 ]

@@ -6,54 +6,54 @@ import Dropdown from "../../../components/Dropdown";
 import { AreaChart, Area, ResponsiveContainer } from "recharts";
 
 const navigation = [
-  "All",
-  "DeFi",
-  "Innovation",
-  "POS",
-  "NFT",
-  "POW",
-  "Storage",
+  "All categories",
+  "Art",
+  "Domain Names",
+  "Music",
+  "Photography",
+  "Utility",
+  "Sports",
 ];
 
 const items = [
   {
-    title: "Bitcoin",
-    currency: "BTC",
-    price: "$36,201.34",
+    title: "Crypto Punks",
+    // currency: "BTC",
+    price: "14k ETH",
     positive: "+1.71%",
-    image: "/images/content/currency/bitcoin.svg",
+    image: "/images/content/currency/cryptopunks.avif",
     url: "/exchange",
   },
   {
-    title: "Ethereum",
-    currency: "ETH",
-    price: "$2,605.95",
+    title: "Sorare",
+    // currency: "ETH",
+    price: "6.3k ETH",
     positive: "+2.04%",
-    image: "/images/content/currency/ethereum.svg",
+    image: "/images/content/currency/sorare.png",
     url: "/exchange",
   },
   {
-    title: "Bitcoin Cash",
-    currency: "BCH",
-    price: "$939.20",
+    title: "ENS",
+    // currency: "BCH",
+    price: "5.4k ETH",
     negative: "-0.74%",
-    image: "/images/content/currency/bitcoin-cash.svg",
+    image: "/images/content/currency/ENS.avif",
     url: "/exchange",
   },
   {
-    title: "Ripple",
-    currency: "XRP",
-    price: "$1.02",
+    title: "Azuki",
+    // currency: "XRP",
+    price: "3.9k ETH",
     positive: "+1.20%",
-    image: "/images/content/currency/ripple.svg",
+    image: "/images/content/currency/azuki.avif",
     url: "/exchange",
   },
   {
-    title: "Chainlink",
-    currency: "LINK",
-    price: "$30.56",
+    title: "Reddit Avatars",
+    // currency: "LINK",
+    price: "1.6k MATIC",
     negative: "-3.84%",
-    image: "/images/content/currency/chainlink.svg",
+    image: "/images/content/currency/reddit-avatar.png",
     url: "/exchange",
   },
 ];
@@ -155,10 +155,10 @@ const Learn = () => {
           <div className={styles.row}>
             <div className={styles.col}>#</div>
             <div className={styles.col}>Name</div>
-            <div className={styles.col}>Price</div>
-            <div className={styles.col}>24h change</div>
-            <div className={styles.col}>Chart</div>
-            <div className={styles.col}>Trade</div>
+            <div className={styles.col}>30d Volume</div>
+            <div className={styles.col}>% change</div>
+            <div className={styles.col}>Floor Price</div>
+            {/* <div className={styles.col}>Sales</div> */}
           </div>
           {items.map((x, index) => (
             <Link className={styles.row} to={x.url} key={index}>
@@ -228,13 +228,13 @@ const Learn = () => {
                   </ResponsiveContainer>
                 </div>
               </div>
-              <div className={styles.col}>
+              {/* <div className={styles.col}>
                 <button
                   className={cn("button-stroke button-small", styles.button)}
                 >
                   Trade
                 </button>
-              </div>
+              </div> */}
             </Link>
           ))}
         </div>

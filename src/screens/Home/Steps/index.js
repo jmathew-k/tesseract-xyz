@@ -4,32 +4,32 @@ import styles from "./Steps.module.sass";
 
 const items = [
   {
-    title: "Download",
-    image2x: "/images/content/step-1@2x.png",
-    image: "/images/content/step-1.png",
+    title: "Connect APIs",
+    image2x: "/images/content/connect.png",
+    image: "/images/content/connect.png",
     content:
-      "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "Create an API key and connect Tesseract NFT Stack",
   },
   {
-    title: "Connect wallet",
-    image2x: "/images/content/step-2@2x.png",
-    image: "/images/content/step-2.png",
+    title: "Upload Media",
+    image2x: "/images/content/upload.png",
+    image: "/images/content/upload.png",
     content:
-      "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "One-click upload your NFT Data/Media to IPFS",
   },
   {
-    title: "Start trading",
-    image2x: "/images/content/step-3@2x.png",
-    image: "/images/content/step-3.png",
+    title: "Integrate NFT Contracts",
+    image2x: "/images/content/contract.png",
+    image: "/images/content/contract.png",
     content:
-      "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "Set contract parameters for NFT minting/trading",
   },
   {
-    title: "Earn money",
-    image2x: "/images/content/step-4@2x.png",
-    image: "/images/content/step-4.png",
+    title: "Deploy Application",
+    image2x: "/images/content/monitor.png",
+    image: "/images/content/monitor.png",
     content:
-      "Stacks is a production-ready library of stackable content blocks built in React Native.",
+      "Deploy & monitor Web3 services with Tesseract dashboard",
   },
 ];
 
@@ -38,10 +38,9 @@ const Steps = ({ scrollToRef }) => {
     <div className={cn("section", styles.section)} ref={scrollToRef}>
       <div className={cn("container", styles.container)}>
         <div className={styles.head}>
-          <h2 className={cn("h2", styles.title)}>How it works</h2>
+          <h2 className={cn("h2", styles.title)}>How does it work?</h2>
           <div className={styles.info}>
-            Stacks is a production-ready library of stackable content blocks
-            built in React Native.
+          The Tesseract Platform provides end-to-end tooling to incorporate NFTs in your application
           </div>
         </div>
         <div className={styles.list}>
