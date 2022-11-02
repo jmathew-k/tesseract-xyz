@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import Icon from "../../../components/Icon";
 import Play from "../../../components/Play";
 
-const navigation = ["All", "Bitcoin", "Blockchain", "Tutorial"];
+const navigation = ["All", "NFT Minting", "IPFS Media", "NFT Apps"];
 
 const items = [
     {

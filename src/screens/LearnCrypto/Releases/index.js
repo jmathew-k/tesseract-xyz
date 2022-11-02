@@ -4,7 +4,7 @@ import styles from "./Releases.module.sass";
 import Item from "./Item";
 import Dropdown from "../../../components/Dropdown";
 
-const navigationList = ["Bitcoin", "Blockchain", "Tutorials"];
+const navigationList = ["NFT Minting", "IPFS Media", "Tutorials"];
 
 const items = [
   {

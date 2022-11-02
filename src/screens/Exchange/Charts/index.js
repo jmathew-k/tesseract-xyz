@@ -62,7 +62,7 @@ const Actions = () => {
   const [activeIndexNav, setActiveIndexNav] = useState(0);
   const [date, setDate] = useState(dates[0]);
 
-  const darkMode = useDarkMode(false);
+  const darkMode = useDarkMode(true);
 
   return (
     <div className={styles.charts}>
