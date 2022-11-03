@@ -13,15 +13,15 @@ const items = [
 		title: 'How to build an NFT Marketplace',
 		content: 'The must-have features & functions of an NFT Marketplace',
 		image: '/images/content/marketplace.png',
-		image2x: '/images/content/marketplace@2x.png',
+		image2x: '/images/content/marketplace.png',
 		url: '/learn-crypto-details',
 	},
 	{
 		title: 'Multi-chain NFT API: How to get NFT Data',
 		content: 'How to get highest quality NFT data to your product',
 		date: 'Nov 1, 2022',
-		image: '/images/content/learn-pic-2.jpg',
-		image2x: '/images/content/learn-pic-2@2x.jpg',
+		image: '/images/content/nft-api.png',
+		image2x: '/images/content/nft-api.png',
 		url: '/learn-crypto-details',
 	},
 	{
@@ -35,8 +35,7 @@ const items = [
 	},
 	{
 		title: 'Streaming Video Through IPFS Gatways',
-		content:
-			'IPFS streaming is not yet native to its content delivery.',
+		content: 'IPFS streaming is not yet native to its content delivery.',
 		date: 'Oct 20, 2022',
 		image: '/images/content/learn-pic-3.jpg',
 		image2x: '/images/content/learn-pic-3@2x.jpg',

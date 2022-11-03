@@ -13,10 +13,11 @@ const Home = () => {
     return (
         <>
             <Main scrollToRef={scrollToRef} />
-            <Learn scrollToRef={scrollToRef} />
-            <Trend />
+            {/* <Learn scrollToRef={scrollToRef} /> */}
+            
             <Popular classSection="section-bg section-mb0" />
             <Download />
+            <Trend />
             <News classSection="section-bg" />
             <Steps />
         </>
