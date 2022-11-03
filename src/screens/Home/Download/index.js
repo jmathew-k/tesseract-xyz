@@ -36,9 +36,9 @@ const Download = () => {
 					/>
 				</div>
 				<div className={styles.wrap}>
-					<h2 className={cn('h2', styles.title)}>High Performance NFT APIs</h2>
+					<h2 className={cn('h2', styles.title)}>Tesseract API</h2>
 					<div className={styles.info}>
-						Anytime, anywhere. Trade crypto on your terms.
+					High Performance NFT API Architecture
 					</div>
 					<div className={styles.list}>
 						{items.map((x, index) => (

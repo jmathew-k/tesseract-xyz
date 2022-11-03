@@ -87,11 +87,11 @@ const Popular = ({ classSection }) => {
     <div className={cn(classSection, styles.section)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.head}>
-          <h2 className={cn("h2", styles.title)}>
+          <h3 className={cn("h3", styles.title)}>
           Developing NFT Apps are Hard, Time-Consuming and Expensive
-          </h2>
+          </h3>
           <div className={styles.info}>
-          Tesseract equips everything you need to start building on Web3
+          <b>Tesseract</b> equips everything you need to start building with NFTs
           </div>
         </div>
         <div className={styles.wrapper}>
