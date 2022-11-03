@@ -116,7 +116,7 @@ const SessionsAndLoginHistory = () => {
         </div>
         <div className={styles.btns}>
           <Link className={cn("button-stroke", styles.button)} to="/contact">
-            Contact us
+            Get in Touch
           </Link>
         </div>
       </div>

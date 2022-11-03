@@ -103,7 +103,7 @@ const Popular = ({ classSection }) => {
         </div>
         <div className={styles.btns}>
           <Link className={cn("button", styles.button)} to="/contact">
-            Contact Us
+            Get in Touch
           </Link>
         </div>
       </div>

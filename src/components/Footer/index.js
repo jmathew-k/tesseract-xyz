@@ -88,7 +88,7 @@ const Footer = () => {
 								className={styles.category}
 								onClick={() => setVisible(!visible)}
 							>
-								footer nav
+								Links
 								<Icon name='arrow-down' size='24' />
 							</div>
 							<div className={styles.menu}>

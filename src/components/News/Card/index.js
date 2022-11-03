@@ -18,7 +18,7 @@ const Card = ({ className, item }) => {
           className={cn("button-stroke button-small", styles.button)}
           to={item.url}
         >
-          Join now
+          Get Started
         </Link>
       </div>
     </div>
