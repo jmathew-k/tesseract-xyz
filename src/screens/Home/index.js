@@ -17,9 +17,11 @@ const Home = () => {
             
             <Popular classSection="section-bg section-mb0" />
             <Download />
-            <Trend />
+
             <News classSection="section-bg" />
+            <Trend />
             <Steps />
+
         </>
     );
 };
