@@ -6,7 +6,7 @@ import styles from "./Cards.module.sass";
 const items = [
 	{
 		title: 'ETH/USD',
-		price: '1,594.23',
+		price: '1,261.71',
 		money: 'Ethereum',
 		negative: '-0.02%',
 		image: 'images/content/currency/eth.png',
@@ -14,7 +14,7 @@ const items = [
 	},
 	{
 		title: 'MATIC/USD',
-		price: '0.8923',
+		price: '0.9728',
 		money: 'Polygon',
 		positive: '+0.28%',
 		image: 'images/content/currency/matic.png',
@@ -22,7 +22,7 @@ const items = [
 	},
 	{
 		title: 'AVAX/USD',
-		price: '19.10',
+		price: '13.20',
 		money: 'Avalanche',
 		positive: '+0.43%',
 		image: 'images/content/currency/avax.svg',
@@ -30,7 +30,7 @@ const items = [
 	},
 	{
 		title: 'SOL/USD',
-		price: '32.93',
+		price: '15.31',
 		money: 'Solana',
 		positive: '+0.79%',
 		image: 'images/content/currency/sol.png',
