@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import cn from "classnames";
-import styles from "./Header.module.sass";
-import { Link, NavLink } from "react-router-dom";
-import Image from "../Image";
-import Dropdown from "./Dropdown";
-import Settings from "./Settings";
-import Icon from "../Icon";
-import Notifications from "./Notifications";
-import Theme from "../Theme";
-import User from "./User";
+import React, { useState } from 'react'
+import cn from 'classnames'
+import styles from './Header.module.sass'
+import { Link, NavLink } from 'react-router-dom'
+import Image from '../Image'
+import Dropdown from './Dropdown'
+import Settings from './Settings'
+import Icon from '../Icon'
+import Notifications from './Notifications'
+import Theme from '../Theme'
+import User from './User'
 
 const navigation = [
 	{
@@ -42,9 +42,9 @@ const navigation = [
 ]
 
 const Header = ({ headerWide }) => {
-  const [visibleNav, setVisibleNav] = useState(false);
+	const [visibleNav, setVisibleNav] = useState(false)
 
-  return (
+	return (
 		<header className={cn(styles.header, { [styles.wide]: headerWide })}>
 			<div className={cn('container', styles.container)}>
 				<Link
@@ -159,6 +159,6 @@ const Header = ({ headerWide }) => {
 			</div>
 		</header>
 	)
-};
+}
 
-export default Header;
+export default Header
