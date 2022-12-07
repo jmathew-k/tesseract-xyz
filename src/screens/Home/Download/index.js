@@ -5,19 +5,19 @@ import styles from './Download.module.sass'
 
 const items = [
 	{
-		title: 'Build Fast',
+		title: 'NFT APIs',
 		content: '',
 		image: '/images/content/currency/flash.svg',
 		url: '/',
 	},
 	{
-		title: 'Efficient Transactions',
+		title: 'Command Center',
 		content: '',
 		image: '/images/content/currency/transfer.svg',
 		url: '/',
 	},
 	{
-		title: 'Robust Metadata',
+		title: 'Marketplace SDK',
 		content: '',
 		image: '/images/content/currency/diamond.svg',
 		url: '/',
@@ -36,9 +36,9 @@ const Download = () => {
 					/>
 				</div>
 				<div className={styles.wrap}>
-					<h2 className={cn('h2', styles.title)}>Tesseract API</h2>
+					<h2 className={cn('h2', styles.title)}>Tesseract Stack</h2>
 					<div className={styles.info}>
-					High Performance NFT API Architecture
+					 Fully integrated suite of products for building Web3 experiences
 					</div>
 					<div className={styles.list}>
 						{items.map((x, index) => (

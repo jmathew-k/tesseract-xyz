@@ -11,10 +11,10 @@ const Main = ({ scrollToRef }) => {
             <div className={cn("container", styles.container)}>
                 <div className={styles.wrap}>
                     <h1 className={cn("h1", styles.title)}>
-                        NFT infrastructure<br></br>for the Web
+                     Web3 Infrastructure<br></br>for Digital Experiences
                     </h1>
                     <div className={styles.text}>
-                    <b>Tesseract</b> is the leading NFT infrastructure for builders and creators in Web3.
+                    <b>Tesseract</b> is the leading decentralised infrastructure for builders and creators in Web3.
                     </div>
                     <Link className={cn("button", styles.button)} to="/sign-up">
                         Start now
@@ -30,8 +30,8 @@ const Main = ({ scrollToRef }) => {
                 </div>
                 <div className={styles.bg}>
                     <img
-                        srcSet="/images/content/eth-server-dark.png 2x"
-                        src="/images/content/eth-server-dark.png"
+                        srcSet="/images/content/9.png 2x"
+                        src="/images/content/9.png"
                         alt="Cards"
                     />
                 </div>

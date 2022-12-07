@@ -8,27 +8,27 @@ import Card from "./Card";
 
 const items = [
   {
-    title: "Blockchain stack is complex and time-consuming",
+    title: "NFTs",
     content:
-      "Grasping Solidity, Web3.js, GraphQL, nodes, IPFS, etc. is hard, time-consuming and usually needs a team to cover all of the skills.",
+      "Create Powerful NFT solutions for Art, Music, Games, Brands etc.",
     button: "Learn More",
     image: "/images/content/blockchain-stack.png",
     image2x: "/images/content/blockchain-stack.png",
     url: "/buy-crypto",
   },
   {
-    title: "NFT infrastructure is hard to manage & expensive",
+    title: "Wallets",
     content:
-      "Teams waste 25-50% of engineering resources managing nodes, developing indexers, overpay gas fees etc. as they try to reinvent the wheel.",
+      " Enable token storage and on-chain identities with wallets",
     button: "Learn More",
     image: "/images/content/nft-infra.png",
     image2x: "/images/content/nft-infra.png",
     url: "/exchange",
   },
   {
-    title: "Slow go-to-market is the biggest risk",
+    title: "Marketplaces",
     content:
-      "Using heavily rate-limited, slow and incomplete APIs slow you down in an extremely competitive market, leading to losing users and revenue.",
+      "Let users freely trade NFTs by opening your own marketplace",
     button: "Learn More",
     image: "/images/content/go-to-market.png",
     image2x: "/images/content/go-to-market.png",
@@ -88,10 +88,10 @@ const Popular = ({ classSection }) => {
       <div className={cn("container", styles.container)}>
         <div className={styles.head}>
           <h3 className={cn("h3", styles.title)}>
-          Developing NFT Apps are Hard, Time-Consuming and Expensive
+         Integrated suite of tools to build Web3 enabled Experiences
           </h3>
           <div className={styles.info}>
-          <b>Tesseract</b> equips everything you need to start building with NFTs
+          <b>Tesseract</b> equips everything you need to start building with Tokens & NFTs
           </div>
         </div>
         <div className={styles.wrapper}>
